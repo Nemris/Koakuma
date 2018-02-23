@@ -1,6 +1,6 @@
 ## Purpose
 
-Koakuma is a Python 3 tool to analyze a Wii U `titlekeys.json` file grabbed from that key site or elsewhere, and output any info belonging to a title that matches the user-submitted criteria im a human-friendly format; said output can also be parsed with shell commands to extract only the required info.
+Koakuma is a Python 3 tool to analyze a Wii U `titlekeys.json` file grabbed from that key site or elsewhere, and output any info belonging to a title that matches the user-submitted criteria in a human-friendly format; said output can also be parsed with shell commands to extract only the required info.
 
 As for the accepted criteria, titleIDs, game names and regions are currently recognized. Furthermore, Koakuma is able to discern whether a title is a game, demo, DLC or update.
 
@@ -55,7 +55,7 @@ Which will result in:
 
 ### Related to the keysite and `titlekeys.json`
 
-`-k/--keysite`: the URL to that key site, to be supplied each time you wish to download `titlekeys.json`. If `-i/--ignore-sha256` is supplied, you'll have to specify the full URL;;
+`-k/--keysite`: the URL to that key site, to be supplied each time you wish to download `titlekeys.json`. If `-i/--ignore-sha256` is supplied, you'll have to specify the full URL;
 
 `-i/--ignore-sha256`: by default, a SHA-256 of that key site's URL is compared to the SHA-256 of the URL submitted by you: if they differ, then the download is skipped; specify this argument to force the download;
 
