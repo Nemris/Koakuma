@@ -1,0 +1,5 @@
+# JSON files
+*.json
+
+# Python bytecode files
+modules/__pycache__
